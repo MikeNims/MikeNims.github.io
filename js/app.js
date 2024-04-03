@@ -125,18 +125,6 @@ const LinkedinClass = document.createElement("i");
 LinkedinClass.className = "bx bx1-Linkedin";
 Linkedin.append(LinkedinClass);
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*==================== toggle icon navbar ====================*/
 
 /*==================== scroll sections active link ====================*/
