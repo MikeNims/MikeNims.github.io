@@ -394,9 +394,16 @@ body{
   section {
     padding: 10rem 3% 2rem;
   }
+  .services{
+    padding-bottom: 7rem;
+  }
 
   .footer{
     padding: 2rem;
+  }
+
+  .portfolio{
+    padding-bottom: 7rem;
   }
 }
 
@@ -416,7 +423,7 @@ body{
     box-shadow: 0 0.5 1rem rgba(0,0,0, .2);
     display: none;
   }
-  
+
   .navbar .active {
     display: block;
   }
@@ -425,5 +432,42 @@ body{
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
+  }
+  .home{
+    flex-direction: column;
+  }
+  .home h3 {
+    font-size: 2.6rem;
+  }
+  .home h1 {
+    font-size: 5rem;
+  }
+
+  .home-img{
+    width: 70vw;
+    margin-top: 4rem;
+  }
+
+  .about{
+    flex-direction: column-reverse;
+
+  }
+
+  .about img {
+    width: 70vw;
+    margin-top: 4rem;
+  }
+
+  .services h2 {
+    margin-bottom: 3rem;
+
+  }
+
+  .portfolio h2 {
+    margin-bottom: 3rem;
+  }
+
+  .portfolio-container{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
