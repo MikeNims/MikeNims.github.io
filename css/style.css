@@ -81,9 +81,23 @@ body{
 }
 
 .home-img img {
-    width: 30vw;
+    width: 35vw;
     margin-left: 10px;
+    margin-top: 2rem;
+    animation: floatImage 4s ease-in-out infinite;
 
+}
+
+@keyframes floatImage {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-2.5rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 .home-content h3 {
@@ -158,6 +172,7 @@ body{
 
 .about-img img {
   width: 35vw;
+  animation: floatImage 4s ease-in-out infinite;
 }
 
 .heading {
@@ -191,6 +206,7 @@ body{
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 5rem;
+    padding-bottom: 16rem;
   }
   
   .services-container .services-box {
@@ -476,10 +492,18 @@ body{
     grid-template-columns: 1fr;
   }
 }
+/* @media(max-width:550){
+  body{
+    display: flex;
+    justify-content: center;
+  }
+
+} */
 
 @media(max-width:450px){
   html{
     font-size: 50%;
+    width: 100%;
   }
   .contact form .input-box input {
     width: 100%;
@@ -503,3 +527,4 @@ body{
     margin-top: 2rem;
   }
 }
+
