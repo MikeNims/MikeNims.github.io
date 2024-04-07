@@ -312,6 +312,11 @@ body {
   color: var(--second-bg-color);
 }
 
+#portfolio-2{
+  height: 21vw;
+}
+
+
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -487,6 +492,7 @@ body {
 @media (max-width: 615px) {
   .portfolio-container {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 }
 
