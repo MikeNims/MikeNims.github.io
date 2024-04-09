@@ -165,6 +165,9 @@ body {
   align-items: center;
   gap: 2rem;
   background: var(--second-bg-color);
+  background-image: url('/images/mountains_dark.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .about-img img {
